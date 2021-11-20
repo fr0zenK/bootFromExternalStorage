@@ -1,3 +1,9 @@
+Original clip watched from: https://www.youtube.com/watch?v=drBKVbOmPEk&ab_channel=JetsonHacks
+
+Minor changed:
+1. Precede "tar xvjf secureboot_r32.6.1_aarch64.tbz2" with sudo in the get_jetson_files.sh script to avoid errors, thanks to David Micksch
+2. During OA installation in Linux sometimes show error string not found, caused by lack of binutils, install it by sudo apt install binutils
+
 # bootFromExternalStorage
 Shell scripts to setup a NVIDIA Jetson AGX Xavier or Jetson Xavier NX Developer Kit to boot from external storage.
 
