@@ -1,4 +1,4 @@
-Original clip watched from: https://www.youtube.com/watch?v=drBKVbOmPEk&ab_channel=JetsonHacks
+Original clip from: https://www.youtube.com/watch?v=drBKVbOmPEk&ab_channel=JetsonHacks
 
 Minor changed:
 1. Precede "tar xvjf secureboot_r32.6.1_aarch64.tbz2" with sudo in the get_jetson_files.sh script to avoid errors, thanks to David Micksch
